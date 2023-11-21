@@ -1,0 +1,12 @@
+<h1>صفحه ورود کاربران </h1>
+
+
+<form action ="" method="post"> 
+
+    {% csrf_token %}  
+    
+    {{ form.as_p }}
+    
+    <input type= "submit" value=" وارد شدن به حساب ">
+    
+    </form>
